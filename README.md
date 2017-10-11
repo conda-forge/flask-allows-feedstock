@@ -17,9 +17,7 @@ ability to compose simple requirements into more complex ones.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-allows-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-allows-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-allows-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-allows-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-allows-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-allows-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flask-allows-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-allows-feedstock)
 
 Current release info
 ====================
