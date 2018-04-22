@@ -17,12 +17,15 @@ ability to compose simple requirements into more complex ones.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flask-allows-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-allows-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flask-allows-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flask-allows-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-allows/badges/version.svg)](https://anaconda.org/conda-forge/flask-allows)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-allows/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-allows)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--allows-green.svg)](https://anaconda.org/conda-forge/flask-allows) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-allows.svg)](https://anaconda.org/conda-forge/flask-allows) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-allows.svg)](https://anaconda.org/conda-forge/flask-allows) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-allows.svg)](https://anaconda.org/conda-forge/flask-allows) |
 
 Installing flask-allows
 =======================
