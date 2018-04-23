@@ -1,6 +1,6 @@
 {% set name = "flask-allows" %}
-{% set version = "0.4" %}
-{% set sha256 = "386d6535fd26fc610c4b000135ba66057fa743479ba6ef9d995de65c613c51a9" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "5ebb765df711eec1fe8f88028f01022adb1b2d673df6739e98aac284d8e6a0b0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   noarch: python
 
