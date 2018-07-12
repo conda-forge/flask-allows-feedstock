@@ -1,25 +1,22 @@
-{% set name = "flask-allows" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "5ebb765df711eec1fe8f88028f01022adb1b2d673df6739e98aac284d8e6a0b0" %}
+{% set version = "0.6.0" %}
 
 package:
-  name: {{ name|lower }}
+  name: flask-allows
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/f/flask-allows/flask-allows-{{ version }}.tar.gz
+  sha256: edc38764457a39618fa86994a9d6c1e2f2f95130982ffa47e9899b2ed3619cd2
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
   noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - flask
