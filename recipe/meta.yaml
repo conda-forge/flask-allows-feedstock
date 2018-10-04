@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: flask-allows
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/flask-allows/flask-allows-{{ version }}.tar.gz
-  sha256: e0a084bf07d9fa519560ef1a0ce4c61fe0dde1c44696dd6cd79ffa6b44cace92
+  sha256: c6760e9ef6692cfbae8d50d4c16b987618301bc7ddc55b7667e1bc9cf3287aa0
 
 build:
   number: 0
